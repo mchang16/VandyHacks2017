@@ -5,6 +5,7 @@
     "description":"Chrome extension that blocks ads and replaces them with memes",
     "browser_action":{
         //"default_icon":"icon.png"
+        "default_popup":"popup.html"
     },
     "background": {
     "scripts": ["background.js"]
