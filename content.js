@@ -11,7 +11,7 @@ function saySomething(){
 window.onload = function() {
     document.getElementById("makeMeme").onclick = function fun() {
         alert("hello");
-        f1();
+        saySomething();
         //validation code to see State field is mandatory.  
     }
 }
