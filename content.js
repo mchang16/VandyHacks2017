@@ -8,12 +8,6 @@ function saySomething(){
     alert("Make some Memes guuuuurl");
 }
 
-window.onload = function() {
-    document.getElementById("makeMeme").onclick = function fun() {
-       img_find();
-        //validation code to see State field is mandatory.  
-    }
-}
 
 
 $(".onOff").click(img_find());
@@ -34,3 +28,11 @@ function img_find() {
 
 }
 img_find();
+
+window.onload = function() {
+    document.getElementById("makeMeme").onclick = function fun() {
+       img_find();
+        //validation code to see State field is mandatory.  
+    }
+}
+
