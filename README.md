@@ -1,2 +1,2 @@
 # VandyHacks2017
-Ad Memeifier
+A chrome extensions that finds ads and replaces them with super cool memes. 
