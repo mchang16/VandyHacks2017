@@ -1,6 +1,5 @@
 "use strict";
 
-
 function img_find() {
     $(document).ready(function () {
         var count = $('body img').length;
@@ -14,9 +13,6 @@ function img_find() {
     });
 }
 
-function page_reload() {
-  window.location.reload()
-}
+
 
 img_find();
-button.onclick = img_find;
