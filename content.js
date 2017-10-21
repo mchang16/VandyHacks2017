@@ -7,7 +7,7 @@ var meme = "memes/%20(" + meme_num + ").jpg";
 function img_find() {
     "use strict";
     $(document).ready(function () {
-        $('img').attr('src', chrome.extension.getURL('meme'));
+        $('img').attr('src', chrome.extension.getURL('memes/%20(1).jpg'));
     });
 }
 img_find();

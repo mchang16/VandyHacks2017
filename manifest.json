@@ -11,9 +11,9 @@
     },
     "background": {
     "scripts": ["background.js"]
-        
+
     },
-    
+
     "content_scripts": [
       {
         "matches": [
@@ -24,7 +24,7 @@
       }
     ],
     "web_accessible_resources": [
-    "cats.jpg"
+    "cats.jpg",
     "memes/%20(1).jpg",
     "memes/%20(2).jpg",
     "memes/%20(3).jpg",
@@ -56,5 +56,36 @@
     "memes/%20(29).jpg",
     "memes/%20(30).jpg",
     "memes/%20(31).jpg",
+    "memes/%20(32).jpg",
+    "memes/%20(33).jpg",
+    "memes/%20(34).jpg",
+    "memes/%20(35).jpg",
+    "memes/%20(36).jpg",
+    "memes/%20(37).jpg",
+    "memes/%20(38).jpg",
+    "memes/%20(39).jpg",
+    "memes/%20(40).jpg",
+    "memes/%20(41).jpg",
+    "memes/%20(42).jpg",
+    "memes/%20(43).jpg",
+    "memes/%20(44).jpg",
+    "memes/%20(45).jpg",
+    "memes/%20(46).jpg",
+    "memes/%20(47).jpg",
+    "memes/%20(48).jpg",
+    "memes/%20(49).jpg",
+    "memes/%20(50).jpg",
+    "memes/%20(51).jpg",
+    "memes/%20(52).jpg",
+    "memes/%20(53).jpg",
+    "memes/%20(54).jpg",
+    "memes/%20(55).jpg",
+    "memes/%20(56).jpg",
+    "memes/%20(57).jpg",
+    "memes/%20(58).jpg",
+    "memes/%20(59).jpg",
+    "memes/%20(60).jpg",
+    "memes/%20(61).jpg",
+    "memes/%20(62).jpg",
     ]
 }
