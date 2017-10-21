@@ -20,4 +20,3 @@ function img_find() {
 
 }
 img_find();
-button.onclick = img_find();
