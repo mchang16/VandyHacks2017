@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 //alert("Lets make some memes!")
 var meme_num = Math.floor((Math.random() * 80) + 1);
 var meme = "memes/%20(" + meme_num + ").jpg";
 
 $(".onOff").click(img_find());
 //alert(meme);
-=======
-"use strict";
-
->>>>>>> d80e0eb53b4d3ed0230b04a459bd3361211b28e0
 function img_find() {
     "use strict";
     
@@ -23,10 +18,5 @@ function img_find() {
         }
     });
 
-<<<<<<< HEAD
 }
-=======
-
-
->>>>>>> d80e0eb53b4d3ed0230b04a459bd3361211b28e0
 img_find();
