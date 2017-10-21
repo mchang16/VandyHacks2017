@@ -2,6 +2,21 @@
 var meme_num = Math.floor((Math.random() * 80) + 1);
 var meme = "memes/%20(" + meme_num + ").jpg";
 
+
+
+function saySomething(){
+    alert("Make some Memes guuuuurl");
+}
+
+window.onload = function() {
+    document.getElementById("makeMeme").onclick = function fun() {
+        alert("hello");
+        f1();
+        //validation code to see State field is mandatory.  
+    }
+}
+
+
 $(".onOff").click(img_find());
 //alert(meme);
 function img_find() {
