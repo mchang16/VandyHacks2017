@@ -4,7 +4,7 @@ var meme = "memes/%20(" + meme_num + ").jpg";
 
 var button = document.querySelector('button');
 
-button.onclick = img_find;
+
 
  
 
@@ -25,3 +25,4 @@ function img_find() {
 
 }
 img_find();
+button.onclick = img_find;
