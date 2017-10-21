@@ -1,7 +1,7 @@
 {
     "name":"Ads to Memes",
     "version":"1.0",
-    "manifest_version":2,
+    "manifest_version": 2,
     "description":"Chrome extension that blocks ads and replaces them with memes",
     "permissions": ["http://*/"],
     "browser_action":{
@@ -11,14 +11,19 @@
     },
     "background": {
     "scripts": ["background.js"]
+        
     },
+    
     "content_scripts": [
       {
         "matches": [
           "<all_urls>"
         ],
-        "js": ["content.js"],
+        "js": ["/jquery-3.2.1.js", "content.js"],
         "run_at" : "document_start"
       }
+    ],
+    "web_accessible_resources": [
+    "cats.jpg"
     ]
 }
