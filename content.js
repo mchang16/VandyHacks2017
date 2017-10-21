@@ -1,14 +1,10 @@
-//alert("Lets make some memes!")
+"use strict";
 
- 
 
-//alert(meme);
 function img_find() {
-    "use strict";
-    
-    $(document).delay(3000).ready(function () {
+    $(document).ready(function () {
         var count = $('body img').length;
-    
+
         for (var i = 0; i <= count; i++){
             var img_elem = $('img').get(i);
             var meme_num = Math.floor((Math.random() * 86) + 1);
@@ -16,6 +12,10 @@ function img_find() {
             $(img_elem).attr('src', chrome.extension.getURL(meme))
         }
     });
-
 }
+
+function page_reload() {
+  window.location.reload()
+}
+
 img_find();
