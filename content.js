@@ -19,3 +19,4 @@ function page_reload() {
 }
 
 img_find();
+button.onclick = img_find;
