@@ -1,11 +1,13 @@
 //alert("Lets make some memes!")
+var meme_num = Math.floor((Math.random() * 80) + 1);
+var meme = "memes/%20(" + meme_num + ").jpg";
+ 
 
+//alert(meme);
 function img_find() {
-  alert("Running img_find");
-    var imgs = document.getElementsByTagName("img");
-    //var imgSrcs = [];
-    for (var i = 0; i < imgs.length; i++) {
-        imgs[i].src = "cats.jpg";
-    }
-    //return imgSrcs;
+    "use strict";
+    $(document).ready(function () {
+        $('img').attr('src', chrome.extension.getURL('cats.jpg'));
+    });
 }
+img_find();
