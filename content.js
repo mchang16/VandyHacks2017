@@ -2,13 +2,15 @@
 var meme_num = Math.floor((Math.random() * 80) + 1);
 var meme = "memes/%20(" + meme_num + ").jpg";
 
+var button = getElementById("makeMeme");
 
+function startFunction(){
 
-function saySomething(){
-    alert("Make some Memes guuuuurl");
+img_find;
+
 }
 
-
+button.onclick = startFunction;
 
 $(".onOff").click(img_find());
 //alert(meme);
@@ -29,6 +31,6 @@ function img_find() {
 }
 img_find();
 
-document.getElementById("makeMeme").onclick = saySomething;
+
 
 
