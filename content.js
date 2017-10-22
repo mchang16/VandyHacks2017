@@ -6,13 +6,13 @@ var button = getElementById("makeMeme");
 
 function startFunction(){
 
-img_find;
+alert("BITCH");
 
 }
 
 button.onclick = startFunction;
 
-$("#onOff").click(img_find());
+
 //alert(meme);
 function img_find() {
     "use strict";
