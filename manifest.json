@@ -20,6 +20,9 @@
         "js": ["/jquery-3.2.1.js", "content.js"]
       }
     ],
+    "icons":{
+        "48" :"grumpy-cat.png"
+    },
     "permissions": ["tabs"],
 
     "web_accessible_resources": [
