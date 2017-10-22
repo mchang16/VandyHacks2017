@@ -1,9 +1,16 @@
-'use strict'
+$(document).ready(function(){
+    $("#makeMeme").click(function () {
+        
+        // Communicate with Background.js
+        var port = chrome.extension.connect({
+            name: "Sample Communication"
+        });
+            port.postMessage("memeify");
+            port.onMessage.addListener(function(msg) {
+        });
+    });
+    
 
-$(document).ready(function() {
-  $("#refresh").click(page_reload);
+    
 });
 
-function page_reload() {
-  location.reload()
-}

@@ -12,7 +12,14 @@ function img_find() {
         }
     });
 }
-
-
-
 img_find();
+
+// Retrieves from background.js
+chrome.runtime.onMessage.addListener(
+  function(request, sender, sendResponse) {
+    if (request.greeting == "memeify"){
+        sendResponse({farewell: "goodbye"});
+        img_find();
+    }
+});
+
