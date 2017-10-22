@@ -29,6 +29,6 @@ function img_find() {
 }
 img_find();
 
-document.getElementById("makeMeme").onclick = saySomething;
+document.getElementById("makeMeme").onclick = saySomething();
 
 
