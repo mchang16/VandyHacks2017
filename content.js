@@ -8,7 +8,7 @@ var meme = "memes/%20(" + meme_num + ").jpg";
 window.onload = function() {
    alert('Damn');
     }
-}
+
 
 //alert(meme);
 function img_find() {
