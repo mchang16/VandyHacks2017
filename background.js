@@ -1,7 +1,7 @@
 var memeOn = true;
 // Retrieves from popup.js
 chrome.extension.onConnect.addListener(function(port) {
-<<<<<<< HEAD
+
      port.onMessage.addListener(function(msg) {
          // Turns memefier on and off
          if (msg == 'memeOn'){
@@ -21,7 +21,7 @@ chrome.extension.onConnect.addListener(function(port) {
       });
  });
 
-=======
+
     port.onMessage.addListener(function(msg) {
         
         //Communicate with contents.js
