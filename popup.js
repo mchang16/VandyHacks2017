@@ -9,8 +9,5 @@ $(document).ready(function(){
             port.onMessage.addListener(function(msg) {
         });
     });
-    
-
-    
 });
 
