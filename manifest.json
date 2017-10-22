@@ -3,15 +3,13 @@
     "version":"1.0",
     "manifest_version": 2,
     "description":"Chrome extension that blocks ads and replaces them with memes",
-    "permissions": ["http://*/"],
     "browser_action":{
         "default_icon":"doge.png",
         "default_popup":"popup.html"
 
     },
     "background": {
-    "scripts": ["/jquery-3.2.1.js","background.js"]
-
+        "scripts": ["background.js"]
     },
 
     "content_scripts": [
@@ -19,10 +17,12 @@
         "matches": [
           "<all_urls>"
         ],
-        "js": ["/jquery-3.2.1.js", "content.js"],
-        "run_at" : "document_start"
+        "js": ["/jquery-3.2.1.js", "content.js"]
+        //"run_at" : "document_start"
       }
     ],
+    "permissions": ["tabs"],
+
     "web_accessible_resources": [
     "cats.jpg",
     "memes/%20(1).jpg",
@@ -110,6 +110,71 @@
     "memes/%20(83).jpg",
     "memes/%20(84).jpg",
     "memes/%20(85).jpg",
-    "memes/%20(86).jpg"
+    "memes/%20(86).jpg",
+    "memes/%20(87).jpg",
+    "memes/%20(88).jpg",
+    "memes/%20(89).jpg",
+    "memes/%20(90).jpg",
+    "memes/%20(91).jpg",
+    "memes/%20(92).jpg",
+    "memes/%20(93).jpg",
+    "memes/%20(94).jpg",
+    "memes/%20(95).jpg",
+    "memes/%20(96).jpg",
+    "memes/%20(97).jpg",
+    "memes/%20(98).jpg",
+    "memes/%20(99).jpg",
+    "memes/%20(100).jpg",
+    "memes/%20(101).jpg",
+    "memes/%20(102).jpg",
+    "memes/%20(103).jpg",
+    "memes/%20(104).jpg",
+    "memes/%20(105).jpg",
+    "memes/%20(106).jpg",
+    "memes/%20(107).jpg",
+    "memes/%20(108).jpg",
+    "memes/%20(109).jpg",
+    "memes/%20(110).jpg",
+    "memes/%20(111).jpg",
+    "memes/%20(112).jpg",
+    "memes/%20(113).jpg",
+    "memes/%20(114).jpg",
+    "memes/%20(115).jpg",
+    "memes/%20(116).jpg",
+    "memes/%20(117).jpg",
+    "memes/%20(118).jpg",
+    "memes/%20(119).jpg",
+    "memes/%20(120).jpg",
+    "memes/%20(121).jpg",
+    "memes/%20(122).jpg",
+    "memes/%20(123).jpg",
+    "memes/%20(124).jpg",
+    "memes/%20(125).jpg",
+    "memes/%20(126).jpg",
+    "memes/%20(127).jpg",
+    "memes/%20(128).jpg",
+    "memes/%20(129).jpg",
+    "memes/%20(130).jpg",
+    "memes/%20(131).jpg",
+    "memes/%20(132).jpg",
+    "memes/%20(133).jpg",
+    "memes/%20(134).jpg",
+    "memes/%20(135).jpg",
+    "memes/%20(136).jpg",
+    "memes/%20(137).jpg",
+    "memes/%20(138).jpg",
+    "memes/%20(139).jpg",
+    "memes/%20(140).jpg",
+    "memes/%20(141).jpg",
+    "memes/%20(142).jpg",
+    "memes/%20(143).jpg",
+    "memes/%20(144).jpg",
+    "memes/%20(145).jpg",
+    "memes/%20(146).jpg",
+    "memes/%20(147).jpg",
+    "memes/%20(148).jpg",
+    "memes/%20(149).jpg",
+    "memes/%20(150).jpg",
+    "memes/%20(151).jpg"
   ]
 }
