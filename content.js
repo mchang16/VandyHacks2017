@@ -6,7 +6,7 @@ function img_find() {
 
         for (var i = 0; i <= count; i++){
             var img_elem = $('img').get(i);
-            var meme_num = Math.floor((Math.random() * 151) + 1);
+            var meme_num = Math.floor((Math.random() * 216) + 1);
             var meme = "memes/%20(" + meme_num + ").jpg";
             $(img_elem).attr('src', chrome.extension.getURL(meme))
         }
