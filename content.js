@@ -10,9 +10,17 @@ alert("BITCH");
 
 }
 
-button.addEventListener('click', startFunction);
+document.getElementById("makeMeme")(function()
 
 
+
+{}
+)
+window.onload = function() {
+    document.getElementById("makeMeme").onclick = function fun() {
+      stop;  
+    }
+}
 //alert(meme);
 function img_find() {
     "use strict";
