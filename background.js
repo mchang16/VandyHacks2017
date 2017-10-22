@@ -1,1 +1,1 @@
-$(".onOff").click(img_find());
+$("#onOff").click(img_find());
