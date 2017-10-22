@@ -2,25 +2,20 @@
 var meme_num = Math.floor((Math.random() * 80) + 1);
 var meme = "memes/%20(" + meme_num + ").jpg";
 
-// var button = getElementById("makeMeme");
+ var button = getElementById("makeMeme");
 
-// function startFunction(){
+ function f1() {
+    alert("f1 called");
+    //form validation that recalls the page showing with supplied inputs.    
+}
+window.onload = function() {
+    document.getElementById("makeMeme").onclick = function fun() {
+        alert("hello");
+        f1();
+        //validation code to see State field is mandatory.  
+    }
+}
 
-// alert("BITCH");
-
-// }
-
-// document.getElementById("makeMeme")(function()
-
-
-
-// {}
-// )
-// window.onload = function() {
-//     document.getElementById("makeMeme").onclick = function fun() {
-//       stop;  
-//     }
-// }
 //alert(meme);
 function img_find() {
     "use strict";
