@@ -15,7 +15,7 @@ $(".onOff").click(img_find());
 function img_find() {
     "use strict";
     
-    $(document).delay(3000).onclick(function () {
+    $(document).delay(3000).ready(function () {
         var count = $('body img').length;
     
         for (var i = 0; i <= count; i++){
@@ -29,6 +29,6 @@ function img_find() {
 }
 img_find();
 
-document.getElementById("makeMeme").onclick = saySomething();
+document.getElementById("makeMeme").onclick = saySomething;
 
 
