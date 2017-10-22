@@ -12,7 +12,7 @@ img_find;
 
 button.onclick = startFunction;
 
-$(".onOff").click(img_find());
+$("#onOff").click(img_find());
 //alert(meme);
 function img_find() {
     "use strict";
