@@ -29,6 +29,7 @@ $(document).ready(function () {
         if (!isOn) {
             $(this).text('Turn Off');
             isOn = true;
+            $("#onOffLabel").text("ON").css('color', 'green');
             localStorage["save_option"] = "on";
             var port = chrome.extension.connect({
                name: "Meme On" 
@@ -38,6 +39,7 @@ $(document).ready(function () {
             });
         } else {
             $(this).text('Turn On');
+            $("#onOffLabel").text("OFF").css('color', 'red');
             isOn = false;
             localStorage["save_option"] = "off";
             var port = chrome.extension.connect({
