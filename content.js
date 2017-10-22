@@ -15,7 +15,7 @@ $(".onOff").click(img_find());
 function img_find() {
     "use strict";
     
-    $(document).delay(3000).ready(function () {
+    $(document).delay(3000).onclick(function () {
         var count = $('body img').length;
     
         for (var i = 0; i <= count; i++){
