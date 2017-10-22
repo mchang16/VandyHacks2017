@@ -31,4 +31,3 @@ chrome.extension.onConnect.addListener(function(port) {
          });
      });
 });
->>>>>>> dd46b228efadb372ddd6c89beecba2809f31d097
