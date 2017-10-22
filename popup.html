@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
@@ -8,6 +8,10 @@
     <script src='popup.js'></script>
     
     <style>
+        @font-face{
+            font-family: "aquafax";
+            src: url("../Aquawax-Medium-Trial.ttf");
+        }
         body{
             background-color:blanchedalmond;
             margin:0;
@@ -16,9 +20,10 @@
             text-align: center;
         }
         h1{
-            font-family:sans-serif;
-            text-align: center
+            font-family: 'aquafax';
+            text-align: center;
         }
+
     </style>
     
 </head>
@@ -27,9 +32,13 @@
     <h1>
         Meme-age
     </h1>
+    <div>
     <button id="makeMeme">Memify</button>
+    </div>
+    <div style="margin: 20px">
     <button id="onOff">Turn Off</button>
-    
+    </div>
+    <img src="grumpy-cat.png" style="margin:0px"/>
 </body>
 
 </html>
