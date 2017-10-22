@@ -2,12 +2,6 @@
 var meme_num = Math.floor((Math.random() * 80) + 1);
 var meme = "memes/%20(" + meme_num + ").jpg";
 
- var button = getElementById("makeMeme");
-
-
-window.onload = function() {
-   alert('Damn');
-    }
 
 
 //alert(meme);
