@@ -10,7 +10,7 @@ alert("BITCH");
 
 }
 
-button.onclick = startFunction;
+button.addEventListener('click', startFunction);
 
 
 //alert(meme);
