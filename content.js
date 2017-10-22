@@ -6,10 +6,7 @@ var meme = "memes/%20(" + meme_num + ").jpg";
 
 
 window.onload = function() {
-    document.getElementById("makeMeme").onclick = function fun() {
-        alert("hello");
-        
-        //validation code to see State field is mandatory.  
+   alert('Damn');
     }
 }
 
